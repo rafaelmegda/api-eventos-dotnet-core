@@ -4,28 +4,44 @@ Este projeto é de estudo para desenvolver uma API utilizando .Net Core usando o
 
 Afim de auxiliar no processo de desenvolvimento, irei listar os passos para serem registrados e posteriormente auxiliar outros developers a também desenvolverem suas API's.
 
-## Instalar .NetCore
+## Instalar .NetCore API
 
-`em breve`
+> `em breve`
 
 ## Criando seu projeto
 
 Abra seu terminal e execute os comandos abaixo:
 
-`mdir defina-nome-do-seu-arquivo`
+> `mdir defina-nome-do-seu-arquivo`
 
-`cd defina-nome-do-seu-arquivo`
+> `cd defina-nome-do-seu-arquivo`
 
-`dotnet`
+> `dotnet`
 
-## Swager
-* localhost:5001/swagger/index.html
 
-## Dependencias
+## Dependencias necessárias
 
-* EntityFrameworkCore
+> Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0"
+> PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.0.0"
+> Microsoft.EntityFrameworkCore.Design" Version="3.0.0"
 
-`dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
+
+## Configurando o EntityFrameworkCore Sqlite
+
+### Instalando o Banco de dados
+
+Instalar o EF Global
+> `dotnet tool install --global dotnet-ef`
+
+Criando o banco de dados
+> `dotnet ef migrations add init`
 
 ## Extensões Vs.Code
 > NuGet Package Manager
+
+
+## Rodando o Projeto
+
+
+### Swager
+* localhost:5001/swagger/index.html
