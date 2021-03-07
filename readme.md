@@ -33,8 +33,14 @@ Abra seu terminal e execute os comandos abaixo:
 Instalar o EF Global
 > `dotnet tool install --global dotnet-ef`
 
-Criando o banco de dados
+Criando as tabelas
 > `dotnet ef migrations add init`
+
+Criando o banco de dados
+> `dotnet ef database update`
+
+Download SQLLiteDB Browser
+> http://sqlitebrowser.org/
 
 ## Extensões Vs.Code
 > NuGet Package Manager
