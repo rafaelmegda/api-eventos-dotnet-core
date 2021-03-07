@@ -47,7 +47,7 @@ Download SQLLiteDB Browser
 
 
 ## Rodando o Projeto
-
+> `dotnet watch run`
 
 ### Swager
 * localhost:5001/swagger/index.html

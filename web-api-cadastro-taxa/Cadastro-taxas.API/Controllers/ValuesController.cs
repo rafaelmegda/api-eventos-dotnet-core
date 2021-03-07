@@ -6,6 +6,7 @@ using Cadastro_taxas.API.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Cadastro_taxas.API.Data;
+using Microsoft.AspNetCore.Http;
 
 namespace Cadastro_taxas.API.Controllers
 {
@@ -19,11 +20,20 @@ namespace Cadastro_taxas.API.Controllers
         {
             _context = context;
         }
-
+        
        [HttpGet]
-       public ActionResult<IEnumerable<Evento>>Get()
+       public IActionResult Get()
        {
-           return _context.Eventos.ToList();
+           try
+           {
+                var results = _context.Eventos.ToList();
+                return Ok(results);
+           }
+           catch (System.Exception)
+           {
+               return this.StatusCode(StatusCodes.Status500InternalServerError, "Banco de Dados Falhou");
+           }
+           
        }
 
         //Get api/values/1
