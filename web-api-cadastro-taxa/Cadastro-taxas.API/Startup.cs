@@ -32,6 +32,7 @@ namespace Cadastro_taxas.API
                 x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")
             ));
             services.AddControllers();
+            services.AddCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cadastro_taxas.API", Version = "v1" });
@@ -48,11 +49,15 @@ namespace Cadastro_taxas.API
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cadastro_taxas.API v1"));
             }
 
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
+            
 
             app.UseEndpoints(endpoints =>
             {

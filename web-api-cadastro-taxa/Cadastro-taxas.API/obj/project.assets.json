@@ -5433,11 +5433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Camila\\Documents\\COISAS RAFAEL\\Workspace-codigos\\Projeto-Cadastro-Taxa\\web-api-cadastro-taxa\\Cadastro-taxas.API\\Cadastro-taxas.API.csproj",
+      "projectUniqueName": "C:\\Users\\Camila\\Documents\\COISAS RAFAEL\\Workspace-codigos\\Projeto-Cadastro-Taxa\\web-api-cadastro-taxa\\Cadastro-taxas.API\\Cadastro-taxas.API.csproj",
       "projectName": "Cadastro-taxas.API",
-      "projectPath": "c:\\Users\\Camila\\Documents\\COISAS RAFAEL\\Workspace-codigos\\Projeto-Cadastro-Taxa\\web-api-cadastro-taxa\\Cadastro-taxas.API\\Cadastro-taxas.API.csproj",
+      "projectPath": "C:\\Users\\Camila\\Documents\\COISAS RAFAEL\\Workspace-codigos\\Projeto-Cadastro-Taxa\\web-api-cadastro-taxa\\Cadastro-taxas.API\\Cadastro-taxas.API.csproj",
       "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Camila\\Documents\\COISAS RAFAEL\\Workspace-codigos\\Projeto-Cadastro-Taxa\\web-api-cadastro-taxa\\Cadastro-taxas.API\\obj\\",
+      "outputPath": "C:\\Users\\Camila\\Documents\\COISAS RAFAEL\\Workspace-codigos\\Projeto-Cadastro-Taxa\\web-api-cadastro-taxa\\Cadastro-taxas.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Camila\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5501,7 +5501,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

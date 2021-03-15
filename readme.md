@@ -51,3 +51,12 @@ Download SQLLiteDB Browser
 
 ### Swager
 * localhost:5001/swagger/index.html
+
+### Angular
+
+## Criar o projeto Angular
+> `ng new nome-projeto`
+
+## Rodando a aplicação
+> `ng build`
+> `ng serve -o`
